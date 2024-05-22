@@ -2,8 +2,8 @@
 Test Factory to make fake objects for testing
 """
 from datetime import date
-import factory
-from factory.fuzzy import FuzzyDate
+import factory  # type: ignore
+from factory.fuzzy import FuzzyDate  # type: ignore
 from service.models import Account
 
 
